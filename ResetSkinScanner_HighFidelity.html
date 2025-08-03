@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reset SkinScanner AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background-color: #fff;
+      color: #1c1c1c;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    header .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .cta {
+      background-color: #2f7c57;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .main-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 2rem;
+    }
+
+    @media(min-width: 900px) {
+      .main-section {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    .text-content {
+      max-width: 500px;
+    }
+
+    .text-content h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+
+    .text-content h1 span {
+      display: block;
+    }
+
+    .highlight {
+      color: #2f7c57;
+    }
+
+    .subhighlight {
+      color: #a8652f;
+    }
+
+    .text-content p {
+      font-size: 1.1rem;
+      margin: 1rem 0 2rem;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-group button {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+      font-weight: 600;
+    }
+
+    .photo-btn {
+      background-color: #2f7c57;
+      color: white;
+    }
+
+    .upload-btn {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .badges {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #2f7c57;
+    }
+
+    .image-block img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem 1rem;
+      border-top: 1px solid #eee;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🧪 Reset SkinScanner AI</div>
+    <nav>
+      <a href="#">How It Works</a>
+      <a href="#">Pricing</a>
+      <a href="#">About</a>
+      <a href="#" class="cta">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="main-section">
+    <div class="text-content">
+      <h1>
+        <span>Know What</span>
+        <span class="highlight">Touches</span>
+        <span class="subhighlight">Your Skin</span>
+      </h1>
+      <p>
+        Snap a photo of any skincare product and get instant AI analysis of ingredients,
+        skin compatibility, and safety alerts.
+      </p>
+      <div class="btn-group">
+        <button class="photo-btn">📷 Take Photo</button>
+        <button class="upload-btn">Choose Photo</button>
+      </div>
+      <div class="badges">
+        <span>✔ First 5 scans FREE</span>
+        <span>✔ Instant results</span>
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="https://images.unsplash.com/photo-1600720740456-f3e7c0a14b83" alt="Product scan mockup">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Reset SkinScanner AI. All rights reserved.
+  </footer>
+
+</body>
+</html>
